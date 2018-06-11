@@ -9,7 +9,7 @@ const routes: Routes = [
   },
   {
     path: 'orders',
-    loadChildren: 'app/orders/orders.module#OrdersModule'
+    loadChildren: 'inventory-lib/orders.module#OrdersModule'
   },
   {
     path: '',
